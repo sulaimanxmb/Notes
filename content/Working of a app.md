@@ -11,3 +11,5 @@ some examples for building :
 etc... 
 
 ![[maven1.png]]
+After building it is testing if executable is working fine or not and then it is deployed
+

@@ -5,23 +5,24 @@
 
 2. [[Python]]
 
+3. [[Working of a app]]
+
+
 ## Side-quest :
 
 1. [[Smart Parking System]]
 
-2. [[Wireguard-VPN]]
+2. [[DNS spoofing]]
 
-3. [[DNS spoofing]]
+3. [[Website Vulnerabilities]]
 
-4. [[Website Vulnerabilities]]
+4. [[OSINT]]
 
-5. [[OSINT]]
+5. [[MacOS Config]]
 
-6. [[MacOS Config]]
+6. [[CTF]]
 
-7. [[CTF]]
-
-8. [[Linux]]
+7. [[Linux]]
 
 
 
