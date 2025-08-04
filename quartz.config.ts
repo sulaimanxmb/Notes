@@ -1,3 +1,4 @@
+import { sharedPageComponents, defaultContentPageLayout } from "./quartz.layout"
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
@@ -92,6 +93,10 @@ const config: QuartzConfig = {
       // Comment out CustomOgImages to speed up build time
       Plugin.CustomOgImages(),
     ],
+  },
+  sharedComponents: sharedPageComponents,
+  pageLayouts: {
+    default: defaultContentPageLayout,
   },
 }
 
