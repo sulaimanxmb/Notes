@@ -1,16 +1,22 @@
 1. [[Cloud Linux]]
 
-2. [[AWS]]
+2. [[Devops Python]]
 
-3. [[Git and Github]]
+3. [[Working of a app]]
 
-4. [[Docker]]
+4. [[Networking Basics]]
 
-5. [[Working of a app]]
+5. [[AWS]]
 
-6. [[Jenkins (CI & CD)]]
+6. [[Git and Github]]
 
-7. [[Cloud Practioner Training]]
+7. [[Docker]]
+
+8. [[Working of a app]]
+
+9. [[Jenkins (CI & CD)]]
+
+10. [[Cloud Practioner Training]]
 
 
 

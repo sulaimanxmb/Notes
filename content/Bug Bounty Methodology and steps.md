@@ -18,6 +18,13 @@ combine all these to subdomains.txt
 
 `cat subdomains.txt | sudo httpx -sc > alive_domains.txt`
 
+after getting all SUB-DOMAINS try for a subdomain takeover using Automated tools like :
+1. Subzy       :     `sudo subzy run -targets (domains file)`
+2. Nuclei
+
+
+Use burp suite host or IP range in sitemap by a regix like `.*\.test\.com$
+
 #### Live & Resolving 
 (have no idea what this does but check these subdomains)
 
@@ -43,7 +50,8 @@ This gives only domain names
 
 `cat probed_domains.txt | feroxbuster --stdin -s 200 --no-recursion -k 
 `--random-agent --no-state -r -W 0 -w feroxbuster.txt`  
-
+or
+``katana -list probed_domains.txt -jc | grep "\.js"``
 or do manually
 
 #### Archived URL's (wayback machine) :
@@ -54,9 +62,21 @@ or do manually
 
 `amass intel -asn <ASN_Number> -o asn_targets.txt`
 
-Use censys and shodan here
+Use [censys](https://search.censys.io) and shodan here
 
-#### Finding files :
+#### Testing :
 
-`katana -list probed_domains.txt -jc | grep "\.js"`
+### Login Bypasses :
+for logging in some developers set a **Default OTP** which can be used to bypass otp
+So create a new account using email and then use common code like 11111,00000,123456
 
+Put dstny.com to censys and started testing on the first IP came
+
+used : `gobuster dir -u http://185.39.124.194 -w /path/to/wordlist.txt -s "200,301,403" --status-codes-blacklist ""`
+Better use feroxbuster ngl
+
+If you see FTP port open then use `lftp ftp://IP` and try running ls orsmtg for connection
+
+when a port is filtered that mostly means protected by firewall
+
+If you get 404 page with IP restriction use `curl -H 'X-FORWARDED-FOR: 127.0.0.1:5000/secret'`

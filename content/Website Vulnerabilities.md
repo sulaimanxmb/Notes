@@ -1,31 +1,23 @@
 
-1. [[Ports and Vulnerabilities]]
+1. [[XML Vulnerability]]
 
-2. [[Tools]]
+2. [[XSS Vulnerability]]
 
-3. [[Bug Bounty Methodology]]
+3. [[SQL Injection Vulnerability]]
 
-4. [[Bug-Bounty Steps]]
+4. [[Information Disclosure Vulnerability]]
 
-5. [[XML Vulnerability]]
+5. [[OS Command Injections]]
 
-6. [[XSS Vulnerability]]
+6. [[Cookie Manipulation]]
 
-7. [[SQL Injection Vulnerability]]
+7. [[CSRF & SSRF vulnerability]]
 
-8. [[Information Disclosure Vulnerability]]
+8. [[File Upload Vulnerability]]
 
-9. [[OS Command Injections]]
+9. [[Local File Inclusion Vulnerability]]
 
-10. [[Cookie Manipulation]]
-
-11. [[CSRF & SSRF vulnerability]]
-
-12. [[File Upload Vulnerability]]
-
-13. [[Local File Inclusion Vulnerability]]
-
-14. [[Remote File Inclusion Vulnerability (incomplete)]]
+10. [[Remote File Inclusion Vulnerability (incomplete)]]
 
 
 

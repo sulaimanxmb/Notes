@@ -1,3 +1,5 @@
+for some basics refer [[Basics of Linux]]
+
 2 types
 1. Debian (Kali, Ubuntu)      Packages end with :     .deb
 2. RPM (Oracle Linux, Centos,REHEL)    Packages end with :     .rpm

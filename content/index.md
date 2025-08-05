@@ -3,9 +3,7 @@
 
 1. [[Devops]]
 
-2. [[Python]]
-
-3. [[Working of a app]]
+2. [[Cybersecurity]]
 
 
 ## Side-quest :
@@ -14,15 +12,9 @@
 
 2. [[DNS spoofing]]
 
-3. [[Website Vulnerabilities]]
+3. [[MacOS Config]]
 
-4. [[OSINT]]
-
-5. [[MacOS Config]]
-
-6. [[CTF]]
-
-7. [[Linux]]
+4. [[Pointers]]
 
 
 
