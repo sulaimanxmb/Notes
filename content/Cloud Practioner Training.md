@@ -1,5 +1,5 @@
 AWS is pay-for what you need :
-# IASS
+# IAS
 you only pay for running servers (not idle) and expand or reduce servers as you need
 
 Cloud computing : It is the on demand IT services provided through internet for anyone with pay-as-you go pricing
@@ -38,9 +38,6 @@ Instead of making a EC2 instance and deploying a container there (YOU will have 
 
 #### AWS ECR :
 A container image storing registry
-
-#### Region deciding :
-![[AWS region.png]]
 
 #### AWS edge server :
 They are located outside availability zones and used to cache data (images, etc..) decreasing latency between servers

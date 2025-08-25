@@ -8,6 +8,7 @@ Some practice script see :
 import random
 import os
 
+
 Dict = {"Job": "Software Engineer", "Company": "TechCorp", "Location": "New York"}
 print(Dict.keys())
 print(Dict.values())
@@ -15,11 +16,25 @@ print(Dict.items())
 Dict['Job'] = 'Plumber'   # changes the value from saftware engneer 
 Dict['J-word'] = Dict.pop('Job')   # chages the key
 
-
-
-
 IP = ["192", "168", "29", "1"]
 print(".".join(IP))
+
+
+
+
+# JSON Manipulation :
+# For modifying JSON files you need to convert JSON to dictionary and then modify thier values and then convert it back to JSON
+# Both JSON and dictionary may look same but they are not same
+import json
+
+json_data = `{"name" : "john", "age":30, "city":"New York"}`
+data = json.loads(json_data)  # This converts JSON data to dictionary data
+
+data['country'] = 'USA'
+data['age'] = 28
+
+updated_json_data = json.dumps(data) # This converts Dictionary data back to JSON
+
 
 
 #Loops :
@@ -113,6 +128,7 @@ server_socket.close()
 import socket
 
 client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+# Here AF_INET is for IPv4 address and SOCK_STREAM is making sure data is reaching 
 host = '127.0.0.1'
 port = 4444
 client_socket.connect((host, port))
